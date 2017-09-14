@@ -1,0 +1,13 @@
+Here is the command to load the file from local machine to Hadoop system, 
+command 
+Hadoop fs -copyFromLocal /home/cloudera/hadoopTrainig.txt /user/cloudera
+to check the file in the Hadoop cluster you can  see 
+hadoop fs -ls /user/cloudera
+ hadooptrainig would be dispalying. 
+ 
+ copy to local machine now 
+ command 
+ 
+Hadoop fs -copyFromLocal /home/cloudera/hadoopTrainig.txt /user/cloudera
+file will be transfer on local machine 
+chek the with ls comand  you will see that too 
